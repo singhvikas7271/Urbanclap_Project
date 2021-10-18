@@ -1,0 +1,439 @@
+@import url('../fonts/fontawesome-free-5.12.1-web/css/all.css');
+body{
+background-color:beige;
+margin: 0;
+padding: 0;
+font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#headerBlock{
+    background: white;
+    padding: 10px ;
+    height: 45px;
+}
+
+
+.leftBlock{
+    width: 70%;
+    float: left;
+   
+}
+
+
+.rightBlock{
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 0px;
+}
+
+
+#headerBlock article{
+    width: 1200px;
+
+    margin: 0 auto;
+}
+
+
+.logo img{
+    width: 300px;
+}
+
+
+.leftmenu ul,
+.rightBlock ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.leftmenu ul li a,
+.rightBlock ul li a{
+    float: left;
+    color: #666;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 440;
+    
+}
+
+.rightBlock ul li a{
+    margin: 0 2px;
+}
+
+.leftmenu ul li{
+    display: inline-block;
+
+}
+
+
+.logo{
+    width: 40%;
+    float: left;
+}
+
+
+.leftmenu{
+    width: 60%;
+    float: left;
+    line-height: 0px;
+}
+
+
+/*sliderBlock css starts here*/
+#sliderBlock article ul li a{
+    margin: 0 20px;
+    text-align: start;
+}
+#sliderBlock{
+    background-image: url('../images/2x_1.jpg');
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+#sliderBlock h1{
+    font-size: 47px;
+    margin:0;
+    color: #fff;
+    font-weight:bolder;
+    
+}
+
+#sliderBlock h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#sliderBlock article{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+
+#sliderBlock form select{
+    padding:15px;
+    width: 180px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    margin: 20px 15px;
+    height: 60px;
+}
+
+
+#sliderBlock form input{
+    width: 400px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 33px;
+}
+#sliderBlock form p{
+    text-align: center;
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+
+}
+.overlay{
+    background: rgba(77,77,77, .5);
+    height: 410px;
+    
+}
+/* after slider */
+#afterSlider{
+    background-color: #eee;
+
+}
+
+
+#afterSlider article{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+#afterSlider article div{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 36px 10px 0px;
+
+}
+
+
+#afterSlider article h2{
+    font-size: 15px;
+    color: #666;
+}
+
+
+#afterSlider article div span i{
+    font-size: 40px;
+    color: #666;
+
+}
+/* ServicesBlock*/
+#servicesBlock{
+    background-color: #fff;
+    clear: both;
+    height: 290px;
+    padding: 30px 0;
+}
+#servicesBlock article {
+    width: 1430px;
+    margin: 0 auto;
+}
+#servicesBlock article div,#wedding_Services article div,
+#Fitness_Yoga article div,#Massage_at_Home article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+#servicesBlock article div img,#wedding_Services article div img,
+#Fitness_Yoga article div img,#Massage_at_Home article div img{
+width: 100%;
+height: 180px;
+border-radius: 10px;
+}
+/* Wedding Services*/
+#wedding_Services,#Fitness_Yoga,
+#Massage_at_Home{
+    clear: both;
+    background-color: #fff;
+    height: 350px;
+}
+
+#wedding_Services  article{
+    width: 1430px;
+    margin: 0 auto;
+    padding: 30px 0px;  
+}
+
+#Fitness_Yoga article{
+    width: 1430px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+
+#Massage_at_Home article{
+    width: 1430px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+/* app section starts here*/
+#appSection{
+
+    clear: both;
+    background-color:#fff;
+}
+#appSection article{
+    width: 1430px;
+    margin: 0 auto;
+    height: 300px;
+    background-color:#eee ;
+    padding: 40px 0;
+}
+/* app section ends here*/
+
+/* appLeft starts here */
+#appSection article .appLeft{
+    width: 45%;
+    float: left; 
+    text-align: center;
+}
+#appSection article .appRight{
+    width: 55%;
+    text-align: left;
+    float: left;
+}
+.appLeft img{
+    width: 220px;
+}
+.appRight h1{
+    font-size: 30px;
+    padding:10px  0;
+    margin: 40px 0 0;
+
+}
+.appRight p{
+    color: #666;
+}
+.appRight form select{
+    padding: 15px 25px;
+    border: none;
+}
+.appRight form input{
+    padding: 20px;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+}
+.appRight form button{
+    background-color: #111;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 30px;
+    border: none;
+    position: absolute;
+    right: 167px;
+    top: 9px;
+}
+.appRight form{
+    position: relative;
+}
+/*appLeft ends here*/
+/* Delivery section starts here */
+.delivery_Section{
+   
+    background-color: #fff;
+    padding-top: 20px;
+}
+.delivery_Section {
+    height: 158px;
+margin-top: 0;
+    text-align: center;
+    height: 158px;
+    padding: 0;
+    border: 1px solid hsla(0,0%,58%,.3);
+    border-right: none;
+    border-left: none;
+    width: 100%;
+}
+
+.delivery_Section  .ds_section{
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #fff;
+    
+}
+.delivery_Section  .ds_section .ds_tC,
+.delivery_Section  .ds_section .ds_tC1,
+.delivery_Section  .ds_section .ds_tC2
+{
+    border-right: 1px solid hsla(0,0%,58%,.3);
+    width: 378px;
+    text-align: left;
+    display: table;
+    height: 100%;
+    float: left;
+    padding-left: 23px;
+}
+.delivery_Section  .ds_section .ds_tC2:last-child{
+    border-right: none;
+}
+
+.delivery_Section  .ds_section .ds_tC .ic1,
+.delivery_Section  .ds_section .ds_tC1 .ic11,
+.delivery_Section  .ds_section .ds_tC2 .ic12{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+   
+}
+.delivery_Section  .ds_section .ds_tC .ic1 span,
+.delivery_Section  .ds_section .ds_tC1 .ic11 span,
+.delivery_Section  .ds_section .ds_tC2 .ic12 span{
+    font-size: 30px;
+    color: #303030;
+
+}
+
+.delivery_Section  .ds_section .ds_tC .ic1 span:before,
+.delivery_Section  .ds_section .ds_tC1 .ic11 span:before,
+.delivery_Section  .ds_section .ds_tC2 .ic12 span:before{
+    background-color: #efefef;
+    border-radius: 30px;
+    padding: 6px;
+   
+}
+[data-icon]:before {
+    font-family: ucglyphs!important;
+    content: attr(data-icon);
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.delivery_Section .ds_section .ds_tC .ic2,
+.delivery_Section  .ds_section .ds_tC1 .ic21,
+.delivery_Section  .ds_section .ds_tC2 .ic22
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+    text-align: left;
+    height: 100%;
+  
+}
+
+.delivery_Section  .ds_section .ds_tC .ic2 h3,
+.delivery_Section  .ds_section .ds_tC1 .ic21 h3,
+.delivery_Section  .ds_section .ds_tC2 .ic22 h3{
+    font-weight: 600;
+    color: #343434;
+    margin-bottom: 0;
+    font-size: 14px;
+    
+}
+
+.delivery_Section  .ds_section .ds_tC .ic2 p,
+.delivery_Section .ds_section .ds_tC1 .ic21 p,
+.delivery_Section  .ds_section .ds_tC2 .ic22 p{
+    color: #646464;
+    font-size: 13px;
+    margin-top: 7px;
+
+}
+/* Delivery section ends here */
+/* subscribers section stars here */
+.subscriber_Section{
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 25px; 
+}
+.subscriber_Section .left1,
+.subscriber_Section .left2,
+.subscriber_Section .left3{
+    display: inline-block;
+    color: #949494;
+    margin-right: 70px;
+}
+.subscriber_Section .left1 .left_Number1,
+.subscriber_Section .left2 .left_Number2,
+.subscriber_Section .left3 .left_Number3{
+    font-size: 46px;
+    font-weight: 300;
+
+}
+.subscriber_Section .left1 .left_Number1 .left_title1,
+.subscriber_Section .left2 .left_Number2 .left_title2,
+.subscriber_Section .left3 .left_Number3 .left_title3{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* subscribers section ends here */
+/*footer Section Starts Here */
